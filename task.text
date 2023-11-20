@@ -1,0 +1,57 @@
+
+TABLE FOR GUVISTUDENTS=>
+CREATE TABLE guviStudent (
+    learnersID INT ,
+    FirstName ,
+    LastName ,
+    Batch DATE
+);
+INSERT INTO guviStudent (learnersID, FirstName, LastName, Batch)
+VALUES
+    (1, 'vengadesan', 'Arumugam', 'BW-51 Batch'),
+    (2, 'Ram', 'sethu', 'BW-51 Batch'),
+    (3, 'Krishna', 'mooerthy', 'BW-51 Batch')
+
+    -----------------------------------------------------------------
+
+TABLE FOR GUVIMENTOR
+CREATE TABLE guvimentor (
+    mentorID INT ,
+    Name ,
+    expert ,
+    Batch DATE
+);
+INSERT INTO guvimentor (mentorID, Name, expert, Batch)
+VALUES
+    (1, 'vengadesan', 'FULL STACK DEVELOPMENT', 'BW-51 Batch'),
+    (2, 'Ram', 'FULL STACK DEVELOPMENT', 'BW-51 Batch'),
+    (3, 'Krishna', 'FULL STACK DEVELOPMENT', 'BW-51 Batch')
+    --------------------------------------------------------------------
+TABLE FOR TASK
+    CREATE TABLE Task (
+    studentID INT ,
+    Task ,
+    completedstatus ,
+    percentage DATE
+);
+INSERT INTO Task (studentID, Task, completedstatus, percentage)
+VALUES
+    (1, 'javascript', 'No', '0'),
+    (2, 'css', 'yes', '5'),
+    (3, 'mongodb', 'yes', '10')
+    ------------------------------------------------------------
+
+TABLE FOR ATTENDENCE
+    CREATE TABLE attendence (
+    StudentID INT ,
+    Name ,
+    attendence 
+     
+);
+
+INSERT INTO attendence (StudentID, Name, attendence)
+VALUES
+    (1, 'vebkat', '97'),
+    (2, 'ram', '80'),
+    (3, 'balu', '40');
+    ----------------------------------------------------------------
